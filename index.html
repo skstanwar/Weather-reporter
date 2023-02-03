@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<title>Weather Reporter</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A comprehensive guide to the latest updates and forecasts for weather around the world.">
+<meta name="keywords" content="weather, forecasts, updates, climate, temperature">
+<meta name="author" content="Sanjay Kumar Saini">
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="#" class="nav-button">Home</a>
+            <a href="#" class="nav-button">About</a>
+            <a href="#" class="nav-button">Services</a>
+            <a href="#" class="nav-button">Contact</a>
+        </div>
+        <div>
+          <a href="#" class="nav-button">Login</a>
+          <a href="#" class="nav-button">Sign Up</a>
+        </div>
+      </nav>
+<div id="output1" class="left-top-container">Hi Here is your data</div>
+<div class="right-top-container" id="output2">
+    Place :
+  </div>
+  <div class="middle" id="middle">
+    <h id="temp"></h>
+    <h id="Wind_speed"></h>
+    <h id="sun_Rise"></h>
+    <h id="sun_Set"></h>
+  </div>
+
+<div class="input-container">
+    
+    <h1>Enter your City name:</h1>
+    <input type="text" id="city_name" value="Udaipurwati">
+  <!-- <script>
+   function getdata(){ const a= document.getElementById('city_name')
+    const b= document.getElementById('output')
+    b.textContent=a.value
+}
+
+  </script> -->
+    <button type="button" id="button" onclick="getdata()">OK</button>
+
+
+
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
